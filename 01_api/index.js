@@ -46,6 +46,6 @@ app.get('/attractions', async (req, res) => {
   }
 });
 
-const port = Number(process.env.PORT || 5000);
+const port = Number(process.env.PORT || 3001);
 app.listen(port, () => console.log(`API listening on http://localhost:${port}`));
 
